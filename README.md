@@ -1,50 +1,35 @@
 # BIKESHARING
 
-# Capstone Project Module 3 - Bike Sharing
+## Problem Statement
 
-## Contents
-
-1. [Business Problem](#business-problem-understanding)
-2. [Data Overview](#data-understanding)
-3. [Data Preprocessing](#data-preprocessing)
-4. [Modeling](#modeling)
-5. [Conclusion](#conclusion)
-6. [Author](#author)
-
----
-
-## Business Problem
-
-**Capital Bikeshare** seeks to optimize bike availability to meet demand while minimizing operational costs. The challenge is to predict the number of bikes required in different conditions and situations.
+The **Capital Bikeshare** program aims to optimize bike availability while minimizing operational costs. The challenge lies in accurately predicting bike demand under different conditions and scenarios.
 
 ## Data Overview
 
-- Dataset: Bike rental data (2011-2012) from **Capital Bikeshare**.
+- Dataset: Bike rental data spanning 2011-2012 from **Capital Bikeshare**.
 - Attributes: Date, humidity, weather situation, holiday status, season, temperature, hour, casual users, registered users, total rentals.
 
-## Data Preprocessing
+## Data Preparation
 
-Cleaned and prepared data for analysis:
-- Adjusted column names for clarity.
-- Handled data types.
-- Checked for missing values and duplicates.
+Data underwent thorough cleaning and transformation:
+- Renamed columns for clarity.
+- Adjusted data types.
+- Addressed missing values and duplicates.
 - Removed irrelevant features.
-- Explored data correlations and identified outliers.
+- Explored correlations and identified outliers.
 
-## Modeling
+## Model Development
 
-- Developed a predictive model using XGBoost.
-- Evaluated the model using benchmark comparisons.
-- Predicted bike demand on the test set.
+- Constructed a predictive model using XGBoost.
+- Benchmarked the model against various comparisons.
+- Successfully predicted bike demand in the test set.
 
 ## Conclusion
 
-This project successfully addressed **Capital Bikeshare's** challenge by building an accurate predictive model. The XGBoost model enables informed decisions regarding bike allocation for various conditions, maintaining cost efficiency while satisfying customer demand.
+This project effectively tackled the challenge posed by **Capital Bikeshare**, resulting in an accurate predictive model. The XGBoost model empowers informed decisions for optimal bike allocation across diverse conditions, striking a balance between operational efficiency and customer satisfaction.
 
 ---
 
 ## Author
 
 **Adhanto Bagaskoro**
-
----
